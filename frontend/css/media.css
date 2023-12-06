@@ -1,0 +1,96 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .table {
+    max-width: 728px;
+  }
+
+  .col-title--2 {
+    width: 30%;
+  }
+
+  .col-title--3 {
+    width: 14%;
+  }
+
+  .col-title--4 {
+    width: 14%;
+  }
+
+  .col-title--5 {
+    width: 128px;
+  }
+
+  .col-title--6 {
+    width: 16%;
+  }
+
+  .btn-up {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .table-text span {
+    display: block;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header__container {
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .header__logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-form {
+    display: none;
+  }
+
+  .main__container {
+    padding-top: 30px;
+    padding-bottom: 176px;
+    overflow: auto;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .modal {
+    width: 300px;
+  }
+
+  .modal__btn {
+    top: 10px;
+    right: 10px;
+  }
+
+  .modal-content {
+    padding: 25px 15px;
+  }
+
+  .contacts {
+    padding: 25px 15px;
+  }
+
+  .itc-select {
+    width: 110px;
+  }
+
+  .form-input--contact::placeholder {
+    width: 113px;
+  }
+}
